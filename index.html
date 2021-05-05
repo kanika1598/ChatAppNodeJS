@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Application via NodeJS</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <section class="chat__section">
+        <div class="brand">
+            <img height="40" src="/images/picture.png" alt="">
+            <h1>WhatsApp</h1>
+        </div>
+        <div class="message__area">
+        </div>
+        <div>
+            <textarea id="textarea" cols="30" rows="1" placeholder="Write a Message"></textarea>
+        </div>
+    </section>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="/js/client.js"></script>
+</body>
+
+</html>
